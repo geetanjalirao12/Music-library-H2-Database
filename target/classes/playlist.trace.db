@@ -1,0 +1,3 @@
+2023-03-08 06:00:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into PLAYLIST(songName, lyricist, singer, musicDirector) [*]into values(?,?,?,?)"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, SORTED, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+insert into PLAYLIST(songName, lyricist, singer, musicDirector) into values(?,?,?,?) [42001-214]
